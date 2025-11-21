@@ -15,7 +15,7 @@ import java.net.Socket;
 public class TcpServer {
 	public static void main(String[] args) throws Exception {
 		
-		int severPort=5000;
+		int severPort=2225;
 		String clientMsg = "";
 		
 		try {			 
@@ -55,4 +55,5 @@ public class TcpServer {
 			System.out.println(e);
 		}
 	}
+
 }
